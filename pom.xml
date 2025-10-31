@@ -11,10 +11,16 @@
 	<groupId>com.example</groupId>
 	<artifactId>biblioteca</artifactId>
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<version>1.1.0</version>
 =======
 	<version>1.1.0</version>
 >>>>>>> release/v1.1.0
+=======
+
+	<version>2.0.0 SNAPSHOT</version>
+
+>>>>>>> release/2.0.0
 	<name>biblioteca</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -37,12 +43,17 @@
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
 
-<!--        <dependency>-->
-<!--            <groupId>mysql</groupId>-->
-<!--            <artifactId>mysql-connector-java</artifactId>-->
-<!--            <version>8.0.33</version>-->
-<!--        </dependency>-->
+  <dependency>
+        <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.33</version>
+        </dependency>
 
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
 	</dependencies>
 
 	<build>
